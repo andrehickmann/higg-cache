@@ -1,14 +1,15 @@
 {
   "name": "higg-cache",
-  "version": "0.1.0",
-  "git": "https://github.com/andrehickmann/higg-cache",
+  "version": "0.2.0",
+  "author": "André Hickmann",
+  "email": "andre.hickmann.ger@gmail.com",
+  "license": "MIT",
+  "url": "https://github.com/andrehickmann/higg-cache",
   "description": "A basic cache with a cache-storage for persisting data in the memory of your application.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts"
   },
-  "author": "André Hickmann",
-  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.0.0",
     "@types/mocha": "^2.2.41",
