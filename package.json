@@ -1,0 +1,19 @@
+{
+  "name": "higg-cache",
+  "version": "0.0.1",
+  "description": "A basic cache with a cache-storage for persisting data in the memory of your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./test/test.ts"
+  },
+  "author": "André Hickmann",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.0.6",
+    "typings": "^2.1.1"
+  }
+}
