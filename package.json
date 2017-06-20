@@ -1,6 +1,6 @@
 {
   "name": "higg-cache",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "André Hickmann",
   "email": "andre.hickmann.ger@gmail.com",
   "license": "MIT",
@@ -13,7 +13,11 @@
   },
   "homepage": "https://github.com/andrehickmann/higg-cache",
   "description": "A basic in-memory cache for persisting data of your application.",
-  "keywords": ["cache", "typescript", "in-memory"],
+  "keywords": [
+    "cache",
+    "typescript",
+    "in-memory"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts"
