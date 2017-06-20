@@ -1,1 +1,2 @@
-export { Cache } from './src/cache';
+export { Cache } from './src/Cache';
+export { CachedObject } from './src/CachedObject';
