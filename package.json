@@ -4,8 +4,16 @@
   "author": "André Hickmann",
   "email": "andre.hickmann.ger@gmail.com",
   "license": "MIT",
-  "url": "https://github.com/andrehickmann/higg-cache",
-  "description": "A basic cache with a cache-storage for persisting data in the memory of your application.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrehickmann/higg-cache"
+  },
+  "bugs": {
+    "url": "https://github.com/andrehickmann/higg-cache/issues"
+  },
+  "homepage": "https://github.com/andrehickmann/higg-cache",
+  "description": "A basic in-memory cache for persisting data of your application.",
+  "keywords": ["cache", "typescript", "in-memory"],
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts"
